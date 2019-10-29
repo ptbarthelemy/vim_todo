@@ -48,12 +48,12 @@ syn match todoDate "\<\d\{1,2\}/\d\{1,2\}\>"
 let b:current_syntax = "todo"
 
 """ FORMATTING
-hi def todoHighPriority		ctermbg=228
-hi def todoMedPriority		ctermbg=229
-hi def todoLowPriority		ctermbg=230
-hi def todoHeading		    cterm=reverse,italic
+hi def todoHeading		    ctermbg=darkgrey
+hi def todoHighPriority		ctermbg=lightblue
+hi def todoMedPriority		ctermbg=blue
+hi def todoLowPriority		ctermbg=darkblue
 hi def todoTODO         	cterm=bold ctermfg=black ctermbg=red
-hi def todoTag              ctermbg=195
+hi def todoTag              ctermbg=grey
 hi def todoCode             ctermfg=grey
 hi def todoTimeEstimate     ctermbg=193
 hi def todoDesc			    ctermfg=lightgrey
